@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "calibri";
+    font-weight: bold;
+}
+body{
+    background-color: rgb(63, 62, 62);
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mdp{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+}
+ul{
+    list-style: none;
+    margin-top: 20px;
+    opacity: 0;
+}
+li{
+    margin-bottom: 10px;
+    color: rgb(202, 201, 201);
+}
+li span{
+    color: rgb(184, 26, 26);
+    font-size: 110%;
+}
